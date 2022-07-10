@@ -15,10 +15,10 @@ The command line interface is simple: call `txtor <NET> <TX>` command through te
 
 You must have Tor or Tor Browser up & running.
 
-You can specify a few options, if needed:
+You can specify a few options via env variables, if needed:
 
 - `TOR_HOST=192.168.2.5 txtor zec <tx>`; default is `127.0.0.1`
-- `TOR_SOCKS_PORT=9051 txtor bch <tx>`; default is `9050`
+- `TOR_SOCKS_PORT=9051 txtor bch <tx>`; default is `9050` (`9150` should be used for Tor Browser)
 - `TOR_RETRY_LIMIT=2 txtor sol <tx>`; default is `10`
 
 ```sh
