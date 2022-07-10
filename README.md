@@ -80,4 +80,4 @@ To view the data you're leaving, check out
 
 ## License
 
-MIT License (c) Paul Miller (https://paulmillr.com)
+MIT License (c) 2022 Paul Miller (https://paulmillr.com)
