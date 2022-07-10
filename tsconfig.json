@@ -2,6 +2,7 @@
     "compilerOptions": {
         "strict": true,
         "declaration": true,
+        "declarationMap": true,
         "outDir": ".",
         "target": "es2020",
         "module": "node16",

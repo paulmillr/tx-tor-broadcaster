@@ -78,3 +78,4 @@ export declare class Broadcaster {
     } | undefined>;
 }
 export {};
+//# sourceMappingURL=index.d.ts.map
