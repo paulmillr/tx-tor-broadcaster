@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "declaration": true,
+        "outDir": ".",
+        "target": "es2020",
+        "module": "node16",
+        "noUnusedLocals": true,
+        "removeComments": false
+    },
+    "include": ["index.ts"],
+    "exclude": [
+        "node_modules",
+        "lib",
+    ],
+}
