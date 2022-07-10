@@ -1,6 +1,8 @@
 # tx-tor-broadcaster
 
-CLI utility that broadcasts BTC, ETH, SOL, ZEC & XMR transactions through TOR using public block explorers.
+CLI utility that broadcasts BTC, ETH, SOL, ZEC & XMR transactions through [TOR](https://www.torproject.org) using public block explorers.
+
+Provides a great degree of anonymity for your transactions.
 
 Ensures no traffic is passed outside TOR, including DNS requests. Uses one small dependency which
 provides list of popular user agents. See [fingerprinting](#fingerprinting) section for additional information.
@@ -9,7 +11,10 @@ provides list of popular user agents. See [fingerprinting](#fingerprinting) sect
 
 > npm install -g tx-tor-broadcaster
 
-The command line interface is simple: call `txtor <NET> <TX>` command through terminal. You must have Tor up & running.
+The command line interface is simple: call `txtor <NET> <TX>` command through terminal.
+
+You must have Tor or Tor Browser up & running.
+
 You can specify a few options, if needed:
 
 - `TOR_HOST=192.168.2.5 txtor zec <tx>`; default is `127.0.0.1`
