@@ -21,7 +21,29 @@
     "@types/node": "16.3.0",
     "typescript": "4.7.3"
   },
+  "license": "MIT",
+  "author": "Paul Miller (https://paulmillr.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulmillr/tx-tor-broadcaster.git"
+  },
   "scripts": {
     "build": "tsc"
-  }
+  },
+  "keywords": [
+    "tx",
+    "transaction",
+    "tor",
+    "broadcast",
+    "onion",
+    "network",
+    "dns",
+    "btc",
+    "eth",
+    "zec",
+    "xmr",
+    "bch",
+    "fingerprint",
+    "cli"
+  ]
 }
