@@ -7,6 +7,13 @@ Provides a great degree of anonymity for your transactions.
 Ensures no traffic is passed outside TOR, including DNS requests. Uses one small dependency which
 provides list of popular user agents. See [fingerprinting](#fingerprinting) section for additional information.
 
+Check out all web3 utility libraries:
+
+- [micro-eth-signer](https://github.com/paulmillr/micro-eth-signer)
+- [micro-sol-signer](https://github.com/paulmillr/micro-sol-signer)
+- [micro-web3](https://github.com/paulmillr/micro-web3)
+- [tx-tor-broadcaster](https://github.com/paulmillr/tx-tor-broadcaster)
+
 ## Usage
 
 > npm install -g tx-tor-broadcaster
