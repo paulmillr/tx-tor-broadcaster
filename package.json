@@ -18,14 +18,14 @@
     "popular-user-agents": "^0.1.2207"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0",
-    "typescript": "5.0.2"
+    "@types/node": "20.0.0",
+    "typescript": "5.3.2"
   },
   "license": "MIT",
   "author": "Paul Miller (https://paulmillr.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulmillr/tx-tor-broadcaster.git"
+    "url": "git+https://github.com/paulmillr/tx-tor-broadcaster.git"
   },
   "scripts": {
     "build": "tsc"
