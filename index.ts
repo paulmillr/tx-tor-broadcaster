@@ -5,7 +5,7 @@ import * as http from 'http';
 import * as https from 'https';
 import { isIPv4, Socket } from 'net';
 import { connect as tlsConnect } from 'tls';
-import * as userAgents from 'popular-user-agents';
+import * as userAgents from './user-agents.js';
 
 // Only built-in modules are used
 // Note: We do not use third-party alternatives, since they
